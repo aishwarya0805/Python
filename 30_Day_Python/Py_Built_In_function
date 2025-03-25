@@ -1,0 +1,15 @@
+print("Practising Built-in functions") #to print the given string
+string1= "Practising Built-in functions" #store string in a variable
+print("Length of the given string is: ",len(string1))  #to check length of the string
+print("Type of the given string is: ",type(string1))
+conv_num= int(input("Enter a number to convert it to a string: ")) #take input from user to convert an integer to string
+conv_to_strng=str(conv_num)
+print("type of converted string is: ",type(conv_to_strng)) #display dataype of converted variable
+
+#aggregate functions
+a= (10,100,5,65,24)
+print("Max number is: ",max(a)) #max number
+print("Min number is: ",min(a)) #min number
+print("Average of numbers is: ",sum(a)/len(a)) #avg of numbers
+print("Sum of numbers is: ",sum(a)) #sum of numbers
+print("Count of numbers is: ",len(a)) #count of numbers
