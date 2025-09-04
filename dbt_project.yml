@@ -44,5 +44,6 @@ models:
   
   
   SQL_SF_migrate:
-    +materialized: table
+    example:
+      +materialized: table
 
